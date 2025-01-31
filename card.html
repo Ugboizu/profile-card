@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="js/card.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <img src="/images/profilepicture.jpg" alt="profile picture" class="profile_picture" data-testid="profilePicture">
+        <h2 class="fullname" data-testid="fullName">Umezurike, Ugboizu Nmachi</h2>
+        <p class="job__title" data-testid="jobTitle">Frontend Web Developer</p>
+        <h4 class="bio" data-testid="shortBio">
+            I am a frontend web developer skilled in HTML, CSS, Bootstrap, JavaScript, and React.js. 
+            I build clean, user-friendly, and responsive websites. Always eager to learn, I keep up with new 
+            trends and improve my skills. I enjoy working in teams, solving problems, and creating smooth user experiences. 
+            As a developer, I am focused on growing and becoming better in the tech industry.
+        </h4>
+        <p class="location" data-testid="currentLocation"><i class="fa-solid fa-location-dot"></i> Aba, Nigeria.</p>
+        <p class="email" data-testid="emailAddress"><i class="fa-solid fa-envelope"></i> umezugbo@gmail.com</p>
+        <div class="socials" data-testid="socialLinks">
+            <a href="https://github.com/Ugboizu"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/Ugboizu"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/bestgirlmachii"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <p class="current_time" data-testid="currentTimeUTC" id="utc_time"></p>
+    </div>
+    
+</body>
+</html>
